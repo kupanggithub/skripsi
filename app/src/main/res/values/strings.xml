@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bunga Bangsa</string>
+    <array name="Genres">
+        <item>Matematika</item>
+        <item>IPA</item>
+        <item>Kimia</item>
+        <item>Biologi</item>
+    </array>
+
+</resources>

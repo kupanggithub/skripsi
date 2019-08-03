@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    tools:context="com.ulfa.bimbelbungabangsa.updatedata">
+
+    <EditText
+        android:id="@+id/new_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nama Baru"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/new_kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kelas Baru"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/new_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Alamat Baru"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/new_nohp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="No Hp Baru"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/jeniskel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Jenis Kelamain "
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/tgllahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tanggal Lahir "
+        android:inputType="textPersonName" />
+    <Spinner
+        android:id="@+id/spinnersMatpel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="13dp"
+        android:entries="@array/Genres" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="Update"
+        android:background="#90cc72"/>
+
+</LinearLayout>

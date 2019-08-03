@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    tools:context="com.ulfa.bimbelbungabangsa.updateNilai">
+
+    <EditText
+        android:id="@+id/new_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Id Baru"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/new_Nilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Niali baru"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/new_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Keterangn Baru"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"/>
+
+
+    <Spinner
+        android:id="@+id/new_spinnersMatpel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="13dp"
+        android:entries="@array/Genres"
+        android:shadowColor="#d13986"/>
+
+    <Button
+        android:id="@+id/update_nilai"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="Update"
+        android:background="#90cc72" />
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    tools:context="com.ulfa.bimbelbungabangsa.updateJadwal">
+
+    <EditText
+        android:id="@+id/new_hari"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="hari baru"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/new_nmguru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nama guru baru"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/new_kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kelas baru"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/new_jammulai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Jam mulai baru"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/new_jamselesai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Jam Selesai baru"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"/>
+
+    <Spinner
+        android:id="@+id/news_spinnersMatpel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="13dp"
+        android:entries="@array/Genres" />
+
+    <Button
+        android:id="@+id/update_jadwal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Update"
+        android:background="#90cc72"/>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JadwalMengajarActivity">
+
+    <EditText
+        android:id="@+id/hari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="hari"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/nama_guru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nama Guru"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/kelass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kelas"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/jam_mulai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Jam mulai"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/jam_selesai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Jam selesai "
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"/>
+
+    <Spinner
+        android:id="@+id/Matpel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="13dp"
+        android:entries="@array/Genres" />
+
+    <Button
+        android:id="@+id/Simpan"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:text="Simpan"
+        android:background="#90cc72"/>
+    <Button
+        android:id="@+id/Tampil_Data"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:text="Tampil Data"
+        android:textSize="12sp"
+        android:background="#90cc72"/>
+
+</LinearLayout>

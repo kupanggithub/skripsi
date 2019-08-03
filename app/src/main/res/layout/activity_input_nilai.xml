@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputNilaiActivity">
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:hint="id_siswa"
+        android:layout_marginTop="50dp"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/etNilaiMatpel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="mata pelajaran"
+        android:layout_below="@id/etId"
+        android:layout_marginTop="5dp"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/etNilaiNilai"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Nilai"
+        android:layout_below="@id/etNilaiMatpel"
+        android:layout_marginTop="5dp"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/etNilaiKeterangan"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Keterangan"
+        android:layout_below="@id/etNilaiNilai"
+        android:layout_marginTop="5dp"
+        android:shadowColor="#d13986"/>
+
+    <Button
+        android:id="@+id/btnNilaiSimpan"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/etNilaiKeterangan"
+        android:layout_marginTop="59dp"
+        android:background="#90cc72"
+        android:layout_marginLeft="80dp"
+        android:text="Simpan"
+        android:textSize="10sp" />
+
+
+    <Button
+        android:id="@+id/tampil_nilai"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/btnNilaiSimpan"
+        android:layout_alignEnd="@+id/etId"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="50dp"
+        android:background="#90cc72"
+        android:text="Tampil"
+        android:textSize="10sp" />
+</RelativeLayout>

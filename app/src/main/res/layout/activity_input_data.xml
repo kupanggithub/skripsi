@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InputDataActivity">
+    <EditText
+        android:id="@+id/etID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Id_User"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Name"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/editTextKelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Kelas"
+        android:shadowColor="#d13986"/>
+
+
+    <EditText
+        android:id="@+id/editTextNoHP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Nomor Kontak"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/jeniskel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Jenis Kelamin"
+        android:shadowColor="#d13986"/>
+
+    <EditText
+        android:id="@+id/editTextAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Alamat"
+        android:shadowColor="#d13986"/>
+    <EditText
+        android:id="@+id/tgl_lahir"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="tgl lahir"
+        android:inputType="textPersonName"
+        android:shadowColor="#d13986"/>
+    <Spinner
+        android:id="@+id/spinnersMatpel"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/Genres" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/buttonSimpan"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        android:text="Simpan"
+        android:background="#90cc72"/>
+
+    <Button
+        android:id="@+id/tampil"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_alignTop="@+id/buttonSimpan"
+        android:text="Tampil"
+        tools:text="Tampil"
+        android:background="#90cc72"/>
+</LinearLayout>
+</LinearLayout>

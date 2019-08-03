@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "379019451493",
+    "firebase_url": "https://bimbelbungabangsa-c7b8c.firebaseio.com",
+    "project_id": "bimbelbungabangsa-c7b8c",
+    "storage_bucket": "bimbelbungabangsa-c7b8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379019451493:android:3010df3a630d6051",
+        "android_client_info": {
+          "package_name": "com.ulfa.bimbelbungabangsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379019451493-uic66q33aqolb2qpm4tlo020qj8upjva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ulfa.bimbelbungabangsa",
+            "certificate_hash": "bb667ab03d62faf349a662ce2c5ca38e45643999"
+          }
+        },
+        {
+          "client_id": "379019451493-mshvnf2254osqv79m444qsuud114oql7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ulfa.bimbelbungabangsa",
+            "certificate_hash": "cb01016a4b4d7d63d4cf3204f3d9fb481b964b05"
+          }
+        },
+        {
+          "client_id": "379019451493-mclsetm79sfkn5209vcrs0s7nlv8rhtn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlCfg6TbyEBSkNRW48Ov-alnYIr5qxChM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379019451493-mclsetm79sfkn5209vcrs0s7nlv8rhtn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

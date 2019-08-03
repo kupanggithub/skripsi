@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="6dp">
+        <TextView
+            android:id="@+id/id_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Id : "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Nama :"
+            android:textSize="15sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/pendidikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Pendidikan Terakhir :"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/matpel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Mata Pelajaran :"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Alamat :"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/nohp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="No HP :"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/jeniskel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Jenis Kelamin :"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tgllahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Tanggal Lahir :"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+</LinearLayout>

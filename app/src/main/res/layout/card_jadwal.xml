@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_pengajar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="6dp">
+
+        <TextView
+            android:id="@+id/harii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="hari : "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/nm_guruu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Nama Guru : "
+            android:textSize="15sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/kelass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Kelas : "
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/matpell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Mata Pelajaran : "
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/jam_mulaii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Jam Mulai : "
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/jam_selesaii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Jam Selesai : "
+            android:textColor="#000"/>
+
+    </LinearLayout>
+</LinearLayout>
