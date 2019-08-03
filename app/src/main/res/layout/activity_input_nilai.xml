@@ -52,7 +52,7 @@
         android:layout_below="@id/etNilaiKeterangan"
         android:layout_marginTop="59dp"
         android:background="#90cc72"
-        android:layout_marginLeft="80dp"
+        android:layout_marginLeft="200dp"
         android:text="Simpan"
         android:textSize="10sp" />
 
@@ -62,11 +62,9 @@
         android:layout_width="90dp"
         android:layout_height="30dp"
         android:layout_alignTop="@+id/btnNilaiSimpan"
-        android:layout_alignEnd="@+id/etId"
         android:layout_marginTop="0dp"
-        android:layout_marginEnd="58dp"
-        android:layout_marginRight="50dp"
-        android:background="#90cc72"
+        android:layout_marginLeft="70dp"
+        android:background="#90cc71"
         android:text="Tampil"
         android:textSize="10sp" />
 </RelativeLayout>

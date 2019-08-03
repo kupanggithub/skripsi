@@ -16,18 +16,14 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.ulfa.bimbelbungabangsa.R;
-import com.ulfa.bimbelbungabangsa.list_data;
 import com.ulfa.bimbelbungabangsa.list_jadwal;
 import com.ulfa.bimbelbungabangsa.model.datajadwal;
-import com.ulfa.bimbelbungabangsa.model.datamhs;
-import com.ulfa.bimbelbungabangsa.model.datanilai;
 import com.ulfa.bimbelbungabangsa.updateJadwal;
-import com.ulfa.bimbelbungabangsa.updatedata;
+
 
 import java.util.ArrayList;
-import java.util.zip.Inflater;
 
-public class AdapterJadwal extends RecyclerView.Adapter<AdapterJadwal.ViewHolder> implements Filterable {
+public class AdapterJadwal extends RecyclerView.Adapter<AdapterJadwal.ViewHolder> implements Filterable{
     private ArrayList<datajadwal> datajadwals;
     private ArrayList<datajadwal> fdatajadwals;
     private Context context;
@@ -51,7 +47,7 @@ public class AdapterJadwal extends RecyclerView.Adapter<AdapterJadwal.ViewHolder
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder,final int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder,final int position) {
     String hari = fdatajadwals.get(position).getHari();
     String nama_guru = fdatajadwals.get(position).getNama_guru();
     String kelas = fdatajadwals.get(position).getKelass();
@@ -102,11 +98,7 @@ public class AdapterJadwal extends RecyclerView.Adapter<AdapterJadwal.ViewHolder
     });
     }
 
-    @Override
-    public int getItemCount() {
-        return fdatajadwals.size();
-    }
-
+//pindahin sini
     @Override
     public Filter getFilter() {
         return new Filter() {
@@ -144,6 +136,10 @@ public class AdapterJadwal extends RecyclerView.Adapter<AdapterJadwal.ViewHolder
                 notifyDataSetChanged();
             }
         };
+    }
+    @Override //pindahkan keatas
+    public int getItemCount() {
+        return fdatajadwals.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
